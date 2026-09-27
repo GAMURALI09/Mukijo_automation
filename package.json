@@ -20,5 +20,8 @@
   "homepage": "https://github.com/GAMURALI09/Mukijo_automation#readme",
   "devDependencies": {
     "@playwright/test": "^1.63.0"
+  },
+  "dependencies": {
+    "playwright": "^1.63.0"
   }
 }
