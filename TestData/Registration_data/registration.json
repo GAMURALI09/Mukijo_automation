@@ -1,0 +1,10 @@
+[
+	{
+		"fullName": "Jane Cooper",
+		"serverId": "bzee21ou",
+		"email": "sports-automation-{timestamp}@{serverId}.mailosaur.net",
+		"password": "Demo@12345",
+		"confirmPassword": "Demo@12345",
+		"accountType": "Club Owner"
+	}
+]
