@@ -1,0 +1,27 @@
+{
+	"groups": [
+		{
+			"name": "Automation Public Team",
+			"description": "Public sports group created by the Playwright automation suite.",
+			"sport": "Football",
+			"category": "Beginner",
+			"location": "Chennai",
+			"visibility": "public"
+		},
+		{
+			"name": "Automation Private Team",
+			"description": "Private sports group created by the Playwright automation suite.",
+			"sport": "Cricket",
+			"category": "Advanced",
+			"location": "Hyderabad",
+			"visibility": "private"
+		}
+	],
+	"members": [
+		{ "name": "Automation Owner", "email": "varshaambika876+automation-owner@gmail.com", "role": "Owner" },
+		{ "name": "Automation Admin", "email": "varshaambika876+automation-admin@gmail.com", "role": "Admin" },
+		{ "name": "Automation Coach", "email": "varshaambika876+automation-coach@gmail.com", "role": "Coach" },
+		{ "name": "Automation Treasurer", "email": "varshaambika876+automation-treasurer@gmail.com", "role": "Treasurer" },
+		{ "name": "Automation Member", "email": "varshaambika876+automation-member@gmail.com", "role": "Member" }
+	]
+}
