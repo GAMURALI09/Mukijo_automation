@@ -1,0 +1,21 @@
+{
+	"venue": {
+		"namePrefix": "Automation Venue",
+		"description": "Automated venue for slot generation and publishing.",
+		"sport": "Football",
+		"address": "123 Test Street",
+		"city": "Hyderabad",
+		"contactName": "Automation Venue Owner",
+		"contactPhonePrefix": "98765",
+		"openingTime": "06:00",
+		"closingTime": "23:00"
+	},
+	"slots": {
+		"daysUntilStart": 1,
+		"daysAfterStart": 2,
+		"startTime": "10:00",
+		"endTime": "12:00",
+		"durationMinutes": 60,
+		"price": 5000
+	}
+}
