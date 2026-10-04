@@ -3,5 +3,11 @@
 		"role": "Club Admin",
 		"email": "varshaambika876@gmail.com",
 		"password": "Varsha@123"
+	},
+
+	{
+		"role": "Venue Owner",
+		"email": "sjan97355@gmail.com",
+		"password": "Sameer@123"
 	}
 ]

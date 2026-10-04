@@ -1,0 +1,10 @@
+{
+	"group": "csk",
+	"type": "Meeting",
+	"name": "Automation Events Session",
+	"daysFromNow": 7,
+	"startTime": "18:00",
+	"endTime": "19:00",
+	"location": "Chennai",
+	"description": "Automation event created by the Playwright test."
+}

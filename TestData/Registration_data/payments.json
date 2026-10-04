@@ -1,0 +1,7 @@
+{
+	"group": "csk",
+	"title": "Automation Fee Request",
+	"amount": 1200,
+	"daysUntilDue": 14,
+	"description": "Payment request created by the Playwright automation suite."
+}
