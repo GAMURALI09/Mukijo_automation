@@ -1,0 +1,17 @@
+{
+  "eventTitlePrefix": "Playwright artist booking",
+  "eventType": "Wedding",
+  "eventDateOffsetDays": 14,
+  "startTime": "18:00",
+  "endTime": "22:00",
+  "guestCount": "50",
+  "proposedPrice": "78000",
+  "location": "Automation Test Hall",
+  "address": "25 Race Course Road",
+  "city": "Bangalore",
+  "state": "Karnataka",
+  "country": "India",
+  "googleMapsCoords": "12.9716, 77.5946",
+  "specialRequests": "Wireless microphones requested; please confirm sound check timing.",
+  "notes": "Automated booking request for end-to-end testing."
+}

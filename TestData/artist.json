@@ -1,0 +1,75 @@
+{
+  "legalName": "santosh",
+  "displayName": "santosh_artist",
+  "countryCode": "+1",
+  "mobileNumber": "4545454545",
+  "yearsOfExperience": "1",
+  "bio": "Rock band performing live music across popular genres.",
+  "bandType": "Duo",
+  "languages": {
+    "Tamil": true,
+    "Telugu": true,
+    "Malayalam": true,
+    "Kannada": true,
+    "Hindi": false,
+    "English": false
+  },
+  "genres": {
+    "Melody": true,
+    "Rock": true,
+    "Pop": false,
+    "Classical": false,
+    "Folk": false,
+    "Fusion": false,
+    "DJ": true,
+    "Others": true
+  },
+  "equipment": {
+    "own speaker": true,
+    "mic": true,
+    "mixer": true,
+    "keyboard": false,
+    "guitar": false,
+    "drums": true,
+    "lighting": false,
+    "dj console": true
+  },
+  "award": "rock performance",
+  "avatarImagePath": "TestData/imgs/avatar.PNG",
+  "coverImagePath": "TestData/imgs/3.PNG",
+  "media": {
+    "photoPath": "TestData/imgs/4.PNG",
+    "album": "General",
+    "videoPath": "TestData/imgs/VID-20250330-WA0083.mp4",
+    "videoCategory": "Live Performance",
+    "youtubeLinks": [
+      "https://www.youtube.com/watch?v=aqz-KE-bpKQ"
+    ],
+    "instagramUrl": "https://instagram.com/santosh_artist",
+    "twitterUrl": "https://twitter.com/santosh_artist",
+    "facebookUrl": "https://facebook.com/santosh_artist",
+    "websiteUrl": "https://example.org"
+  },
+  "pricing": {
+    "currency": "INR",
+    "performanceRate": "78000",
+    "travelRadius": "100",
+    "travelCharges": "5000",
+    "weekendSurcharge": "10",
+    "holidaySurcharge": "15",
+    "packages": [
+      {
+        "title": "Sample Full Concert Package",
+        "price": "78000",
+        "description": "Sample test package: includes a three-hour live performance, sound mixer, microphones, and lighting setup."
+      }
+    ],
+    "promos": [
+      {
+        "name": "Sample Early Bird Offer",
+        "discount": "10",
+        "terms": "Sample test offer: 10% off bookings made at least three months before the event."
+      }
+    ]
+  }
+}
