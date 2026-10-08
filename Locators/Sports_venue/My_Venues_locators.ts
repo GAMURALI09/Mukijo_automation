@@ -1,0 +1,36 @@
+import type { Page } from '@playwright/test';
+
+const myVenuesLocators = (page: Page) => ({
+	enterSports: page.getByRole('link', { name: 'Enter Sports', exact: true }),
+	loginEmail: page.getByPlaceholder('you@example.com', { exact: true }),
+	loginPassword: page.getByPlaceholder('Enter your password', { exact: true }),
+	signIn: page.getByRole('button', { name: 'Sign in', exact: true }),
+	myVenuesLink: page.getByRole('link', { name: 'My Venues', exact: true }),
+	myVenuesHeading: page.getByRole('heading', { name: 'My Venues', exact: true }),
+	addVenueButton: page.getByRole('link', { name: 'Add Venue', exact: true }),
+	venueNameInput: page.locator('input[name="name"]'),
+	venueDescriptionInput: page.locator('textarea[name="description"]'),
+	streetAddressInput: page.locator('input[name="address"]'),
+	cityInput: page.locator('input[name="city"]'),
+	contactNameInput: page.locator('input[name="contactName"]'),
+	contactPhoneInput: page.locator('input[name="contactPhone"]'),
+	openingTimeInput: page.locator('input[name="openingTime"]'),
+	closingTimeInput: page.locator('input[name="closingTime"]'),
+	sportOption: (sport: string) => page.getByRole('button', { name: sport, exact: true }),
+	createVenueButton: page.getByRole('button', { name: 'Create venue', exact: true }),
+	venueHeading: (name: string) => page.getByRole('heading', { name, exact: true }),
+	viewVenueDetailsLink: page.getByRole('link', { name: 'View details', exact: true }).last(),
+	backButton: page.getByRole('link', { name: 'Back', exact: true }),
+	startDateInput: page.locator('input[name="startDate"]'),
+	endDateInput: page.locator('input[name="endDate"]'),
+	startTimeInput: page.locator('input[name="startTime"]'),
+	endTimeInput: page.locator('input[name="endTime"]'),
+	slotDurationInput: page.locator('input[name="slotDurationMinutes"]'),
+	slotPriceInput: page.locator('input[name="price"]'),
+	generateSlotsButton: page.getByRole('button', { name: 'Generate Slots', exact: true }),
+	generatedSlotTime: page.getByText('10:00 - 11:00', { exact: true }),
+	publishVenueButton: page.getByRole('button', { name: 'Publish Venue', exact: true }),
+	publishedStatus: page.getByText(/Status:\s*Published/),
+});
+
+export = myVenuesLocators;

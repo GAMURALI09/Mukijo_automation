@@ -3,5 +3,23 @@
 		"role": "Club Admin",
 		"email": "varshaambika876@gmail.com",
 		"password": "Varsha@123"
+	},
+
+	{
+		"role": "Venue Owner",
+		"email": "sjan97355@gmail.com",
+		"password": "Sameer@123"
+	},
+
+	{
+		"role": "Artist",
+		"email": "santhosh.saminathan1003@gmail.com",
+		"password": "Santhosh@1234"
+	},
+
+	{
+		"role": "Client",
+		"email": "samisanthosh057@gmail.com",
+		"password": "Santhosh@123"
 	}
 ]
